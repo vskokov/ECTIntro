@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/night.css" />
     <link rel="stylesheet" href="style.css" />
+    <!--
+    -->
+    <link rel="stylesheet" href="css/theme/dark_reveal_theme.css" />
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
@@ -46,12 +49,143 @@
     }
 
     .cite {
+      margin: 0px auto;
+      color: #aaaaaa;
       text-align: right;
       font-size: 40%;
     }
 
+    .att {
+      color: #f58137;
+      font-weight: 600;
+    }
+
+    .attcomp {
+      color: #00b0f0;
+      font-weight: 600;
+    }
+
+    strong {
+      font-weight: bold;
+      color: #f58137;
+    }
+
+    .note {
+      margin: 0px auto;
+      color: #999999;
+      font-style: italic;
+      font-weight: 100;
+      text-align: left;
+      font-size: 50%;
+    }
     .smallmath {
       font-size: 60%;
+    }
+
+    .medmath {
+      font-size: 80%;
+    }
+
+    .colorized-list li:nth-child(odd) {
+      background-color: #222222;
+      color: #ffffff;
+      color: #eeeeee;
+      padding: 1px 15px;
+      margin: 3px 0;
+      border-radius: 5px;
+    }
+
+    .colorized-list li:nth-child(even) {
+      background-color: #1a1a1a;
+      color: #eeeeee;
+      padding: 1px 15px;
+      margin: 3px 0;
+      border-radius: 5px;
+    }
+
+    .reveal .colorized-list li {
+      text-align: left;
+    }
+
+    /* Container for the boxes */
+    .box-container {
+      display: flex;
+      justify-content: right;
+      gap: 0px; /* Space between boxes */
+      width: 100%;
+    }
+
+    /* Top alignment */
+    .top-aligned {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-top: 120px; /* Optional: adds some space from the very top */
+    }
+
+    /* Basic box styling */
+    .box {
+      padding: 20px;
+      border-radius: 5px;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    /* Box colors */
+    .blue-box {
+      background-color: #f58137;
+    }
+
+    .red-box {
+      background-color: #00b0f0;
+    }
+
+    .zigzag-divider {
+      height: 5px;
+      width: 90%;
+      margin: 20px auto;
+      background:
+        linear-gradient(
+          45deg,
+          transparent 33.333%,
+          #333 33.333%,
+          #333 66.667%,
+          transparent 66.667%
+        ),
+        linear-gradient(
+          -45deg,
+          transparent 33.333%,
+          #333 33.333%,
+          #333 66.667%,
+          transparent 66.667%
+        );
+      background-size: 20px 30px;
+      background-position: 0 0;
+    }
+
+    .dotted-separator {
+      height: 3px;
+      width: 90%;
+      margin: 10px auto;
+      background-image: linear-gradient(to right, #777 20%, transparent 20%);
+      background-position: top;
+      background-size: 15px 3px;
+      background-repeat: repeat-x;
+    }
+
+    .columns {
+      display: flex;
+      gap: 1em;
+    }
+    .column {
+      flex: 1;
     }
   </style>
 
@@ -60,8 +194,8 @@
       <div class="slides">
         <section
           data-markdown="slides.md"
-          data-separator="^---"
-          data-separator-vertical="^--"
+          data-separator="^---$"
+          data-separator-vertical="^--$"
         ></section>
       </div>
     </div>
@@ -77,22 +211,23 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        width: 1120,
+        height: 700,
+        history: false,
+        progress: true,
+        //slideNumber: 'c/t',
 
         mathjax3: {
           tex: {
             macros: {
-              red: ["{\\color{red}{#1}}", 1],
+              orange: ["{\\color{Orange}{#1}}", 1],
+              blue: ["{\\color{ProcessBlue}{#1}}", 1],
             },
           },
         },
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [
-          RevealMarkdown,
-          RevealHighlight,
-          RevealNotes,
-          RevealMath.MathJax3,
-        ],
+        plugins: [RevealMarkdown, RevealMath.MathJax3],
       });
     </script>
   </body>
