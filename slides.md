@@ -6,6 +6,8 @@ Organizers:
 - Christian Schmidt-Sonntag
 - Vladi Skokov
 
+We thank ECT\*, Bielefeld University, ??? Center and for support
+
 ---
 
  <!-- .slide: data-transition="convex" -->
@@ -14,11 +16,15 @@ Organizers:
 
 - **Introduction**
 
-  1. Why QCD analytic structure?
+ <div class="medmath">
 
-  2. State of the art
+1. Why QCD analytic structure?
 
-  3. Open questions
+2. State of the art
+
+3. Open questions
+
+ </div>
 
 <span class="fragment">
 
@@ -44,7 +50,7 @@ Organizers:
 
  <!-- .slide: data-transition="convex" -->
 
-## QCD Phase diagram: theory methods
+## QCD Phase diagram: theory
 
 - **Lattice Monte-Carlo**
 
@@ -58,10 +64,14 @@ _Talks by J. Pawlowski and F. Gao on Th_
 
 ### **Limitations:**
 
+ <div class="medmath">
+
 - Lattice QCD calculations are only feasible at zero baryon density due to the
   sign problem
 - Functional methods require truncation improvement at larger values of chemical
   potential
+
+ </div>
 
  </br>
 
@@ -73,11 +83,13 @@ _Talks by J. Pawlowski and F. Gao on Th_
 
 - Functional methods: failure of truncation indicate the approach to
   criticality?
-
 - Lattice: Taylor series coefficients/imaginary $\mu$ $\to$ non-zero baryon
   density
 
-`\[  \frac{p}{T^4} = \sum_{n=0}^{\infty} \frac{  \chi_n }{n!}\left(\frac{\mu}{T}\right)^n  \]`
+$$
+\frac{p}{T^4} = \sum\_{n=0}^{\infty} \frac{ \chi_n
+}{n!}\left(\frac{\mu}{T}\right)^n
+$$
 
 ---
 
@@ -86,15 +98,20 @@ _Talks by J. Pawlowski and F. Gao on Th_
 ## Taylor series expansion
 
 - Consider an arbitrary function expanded around a regular point
+
+ <div class="medmath">
   $$f(x) = \sum_{n=0}^{\infty} \frac{1}{n!}  f_n x^{n}$$
+ </div>
 
 - What limits the predictive power of this expansion?
 
+ <div class="medmath">
 $$|x| < R_c \equiv \left(  \lim_n \sup \left| f_n^{1/n} \right| \right)^{-1}$$
+ </div>
 
 - $R_c$ is the radius of convergence
-- $R_c =$ distance in the **complex** plane from the expansion point to the
-  nearest singularity
+- $R_c =$ distance in **complex** plane from expansion point to nearest
+  singularity
 
 ---
 
@@ -133,9 +150,9 @@ exp.
 
 --
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
-## Illustration in Ising model: $h = i |z_c|^{-\beta \delta} t^{\beta \delta}$
+## Illustration in Ising model $h = i |z_c|^{-\beta \delta} t^{\beta \delta}$
 
 <img src="img/IsingYLE.png"  width="50%">
 
@@ -156,11 +173,11 @@ For each universality class:
 | -------------------------------- | --- | ---------- | -------- | ----------- |
 | $ \| z_c \| /R\_\chi^{1/\gamma}$ | 1   | 1.32504(2) | 1.621(4) | $3/2^{2/3}$ |
 
-Talks by F. Rennecke (Tue) and H.-L. Xu (Fr)
+_Talks by F. Rennecke (Tue) and H.-L. Xu (Fr)_
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Back to QCD phase diagram
 
@@ -169,17 +186,38 @@ Talks by F. Rennecke (Tue) and H.-L. Xu (Fr)
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+## Naive mapping
+
+Near chiral transition
+
+ <div class="medmath">
+
+\begin{align} z &= z_0 \left( \frac{m_l}{m_s}\right)^{-\frac{1}{\beta\delta}}
+\times \left[ \frac{T-T_c}{T_c} + \kappa^B_2 \left( \frac{\mu}{T_c} \right)^2 +
+\kappa^B_4 \left( \frac{\mu}{T_c} \right)^4 + \dots \right] \,. \label{eq:z}
+\end{align}
+
+</div>
+
+<img src="img/R.png"  width="40%">
+
+<div class="cite">
+S. Mukherjee, V.S., 1909.04639
+</div>
+
+---
+
+<!-- .slide: data-transition="convex" -->
 
 ## QCD: Expected analytic structure $T_c<T<T_{RW}$
 
 <img src="img/YLEs.png" width=50% >
 
-Talks by M. Stephanov on Wed, S. Yin on Th
+_Talks by M. Stephanov on Wed, S. Yin on Th_
 
 --
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## QCD: Expected analytic structure $T\to T_c$
 
@@ -187,7 +225,7 @@ Talks by M. Stephanov on Wed, S. Yin on Th
 
 --
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## QCD: Expected analytic structure $T\to T_{RW}$
 
@@ -195,7 +233,7 @@ Talks by M. Stephanov on Wed, S. Yin on Th
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Tracing YLE singularity: RW critical point
 
@@ -203,7 +241,7 @@ Lattice QCD and indirect methods to locate YLE:
 
 input from Im $\mu$ \& analytic continuation
 
-<img src="img/RW_YLE.png" height=320em >
+<img src="img/RW_YLE.png" height=280em >
 
 $$
   z = z_c \to \text{Re} \mu_{YLE} \propto (T_{RW}-T)^{\beta \delta} \quad \leadsto T_{RW} = 211.1 \pm 3.1 \text{MeV}.
@@ -211,9 +249,13 @@ $$
 
 _Talk by C. Schmidt on Tue_
 
+<div class="cite">
+ C. Schmidt et al,     2209.04345
+</div>
+
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Tracing YLE singularity: chiral critical point
 
@@ -232,7 +274,7 @@ _Talks by K. Zambello after coffee break and G. Basar on Wed_
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Tracing YLE singularity: estimate for critical point
 
@@ -244,7 +286,7 @@ $$ T_c \approx 110 \text{ MeV} , \mu_c \approx 650 \text{ MeV}$$
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Tracing YLE singularity: systematics
 
@@ -258,7 +300,7 @@ _Talk by A. Adam this afternoon_
 
 ---
 
- <!-- .slide: data-transition="convex" -->
+<!-- .slide: data-transition="convex" -->
 
 ## Goals of the workshop
 
@@ -275,6 +317,36 @@ _Talk by A. Adam this afternoon_
 
 ---
 
-## Workshop Strucutre
+<!-- .slide: data-transition="convex" -->
 
- <!-- .slide: data-transition="convex" -->
+## Workshop
+
+### Monday and Tuesday
+
+**Lattice QCD**: extrapolations, systematics, new methods
+
+**Discussion** on systematics os locating YLEs/LYZs and critical point
+
+---
+
+### Wednesday
+
+**Amalytic strucutre**
+
+**Analysis of lattice data**
+
+**Discussion** on analytic strucutre
+
+**Free afternoon and Workshop dinner**
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+### Thursday
+
+**Functional methods**
+
+### Friday
+
+**Universal location of YLE** in Ising model
