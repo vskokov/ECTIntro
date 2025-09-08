@@ -6,7 +6,8 @@ Organizers:
 - Christian Schmidt-Sonntag
 - Vladi Skokov
 
-We thank ECT\*, Bielefeld University, ??? Center and for support
+Supported by FBK ECT\*, Bielefeld University, and CRC TR 211 (Strong interaction
+matter under extreme conditions)
 
 ---
 
@@ -186,7 +187,39 @@ _Talks by F. Rennecke (Tue) and H.-L. Xu (Fr)_
 
 ---
 
+<!-- .slide: data-transition="convex" -->
+
+## QCD: Expected analytic structure $T_c<T<T_{RW}$
+
+<img src="img/YLEs.png" width=50% >
+
+_Talks by M. Stephanov on Wed, S. Yin on Th_
+
+<div class="cite">
+M. Stephanov, hep-lat/0603014 
+</div>
+
+--
+
+<!-- .slide: data-transition="convex" -->
+
+## QCD: Expected analytic structure $T\to T_c$
+
+<img src="img/YLEtoTc.png" width=50% >
+
+--
+
+<!-- .slide: data-transition="convex" -->
+
+## QCD: Expected analytic structure $T\to T_{RW}$
+
+<img src="img/YLEtoRW.png" width=50% >
+
+---
+
 ## Naive mapping
+
+<!-- .slide: data-transition="convex" -->
 
 Near chiral transition
 
@@ -204,32 +237,6 @@ Near chiral transition
 <div class="cite">
 S. Mukherjee, V.S., 1909.04639
 </div>
-
----
-
-<!-- .slide: data-transition="convex" -->
-
-## QCD: Expected analytic structure $T_c<T<T_{RW}$
-
-<img src="img/YLEs.png" width=50% >
-
-_Talks by M. Stephanov on Wed, S. Yin on Th_
-
---
-
-<!-- .slide: data-transition="convex" -->
-
-## QCD: Expected analytic structure $T\to T_c$
-
-<img src="img/YLEtoTc.png" width=50% >
-
---
-
-<!-- .slide: data-transition="convex" -->
-
-## QCD: Expected analytic structure $T\to T_{RW}$
-
-<img src="img/YLEtoRW.png" width=50% >
 
 ---
 
