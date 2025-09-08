@@ -196,7 +196,7 @@ _Talks by F. Rennecke (Tue) and H.-L. Xu (Fr)_
 _Talks by M. Stephanov on Wed, S. Yin on Th_
 
 <div class="cite">
-M. Stephanov, hep-lat/0603014 
+M. Stephanov, hep-lat/0603014
 </div>
 
 --
@@ -357,3 +357,79 @@ _Talk by A. Adam this afternoon_
 ### Friday
 
 **Universal location of YLE** in Ising model
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+# Discussion
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Interval dependence
+
+<span class="fragment">
+
+<img src="img/intervaldep.png" height=300em >
+
+</span>
+
+<span class="fragment">
+
+- Are there exact results?
+
+</span>
+
+<span class="fragment">
+
+- Interpolating from imaginary line vs Taylor series: "radius of convergence" is
+  due to the singularity closest to the line vs closest to the expansion point
+
+ </span>
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Second LYZ
+
+- Any hope to perform finite volume analysis?
+
+_Talk by Masakiyo Kitazawa on Wed_
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Re $\mu_{YLE}$ and the relation to the crossover line
+
+ <img src="img/IsingYLE.png"  width="50%">
+
+Lattice analyses of LYZ gives the parametrization for Re $\mu_{YLE}$ and Im
+$\mu_{YLE}$ near the point where the latter quantity vanishes. Does the line
+$\mu = Re \mu_{YLE} (T)$ follow the "crossover" line?
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Re $\mu_{YLE}$ and the relation to the crossover line
+
+ <img src="img/Pade_dep.png"  width="30%">
+
+- Current QCD calculations use Pade[3,3], Pade[4,4], Pade[5,5]
+
+- If the shape of the curve depends on the position of the singularity, it may
+  fake the YLE trajectory
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Scaling for strange neutral eos?
+
+<img src="img/scaling.png"  width="50%">
+
+- What is the origin?
