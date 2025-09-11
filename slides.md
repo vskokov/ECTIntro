@@ -433,3 +433,77 @@ $\mu = Re \mu_{YLE} (T)$ follow the "crossover" line?
 <img src="img/scaling.png"  width="50%">
 
 - What is the origin?
+- Very large values of $z$...
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+# Discussion: Thursday
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Scaling: Model
+
+<img src="img/scale1.png"  width="90%">
+
+- Why not the pion mass...
+- Very large values of $z$...
+
+_Braun and Klein_
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Scaling: Model
+
+<img src="img/scale2.png"  width="90%">
+
+- Why not the pion mass...
+- Very large values of $z$...
+
+_Braun and Klein_
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Scaling: Model
+
+<img src="img/scale3.png"  width="90%">
+
+- Why not the pion mass...
+
+_Braun and Klein_
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Scaling: LQCD
+
+<img src="img/scale.jpg"  width="50%">
+
+- The scaling is not perfect
+- Quite significant deviation rate at small masses
+- Why not to use the conventional normalization...
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## YLE trajectory... DSE, LQCD, what about FRG?
+
+<img src="img/YLEtraj.jpg"  width="44.5%">
+<img src="img/qcdtraj.png"  width="40%">
+
+---
+
+<!-- .slide: data-transition="convex" -->
+
+## Lifshitz point; corresponding YLE?
+
+<img src="img/moat.jpg"  width="50%">
